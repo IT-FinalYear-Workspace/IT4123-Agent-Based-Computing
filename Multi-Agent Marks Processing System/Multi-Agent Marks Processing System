@@ -1,0 +1,68 @@
+Multi-Agent Marks Processing System
+Agents to Implement
+InterfaceAgent
+
+Reads marks from the user via console input.
+
+Sends marks to TotalAgent and AverageAgent.
+
+Displays results received.
+
+Sends average to GradeAgent and displays final grade.
+
+TotalAgent
+
+Computes the total of all marks.
+
+AverageAgent
+
+Computes the average of all marks.
+
+GradeAgent
+
+Determines grade based on average.
+
+Suggested Grade Rules
+A → average ≥ 75
+
+B → 60 ≤ average < 75
+
+C → 50 ≤ average < 60
+
+F → average < 50
+
+Move Forward:
+
+Choose at least two to implement:
+
+Enhanced Grading System
+
+Add a Grade D for averages between 40–49.
+
+Add "Pass/Fail" remark along with grade.
+
+Highest and Lowest Marks
+
+Create a new agent StatsAgent that calculates:
+
+Highest mark
+
+Lowest mark
+
+Send results back to InterfaceAgent.
+
+Multiple Students Support
+
+Modify InterfaceAgent to accept marks for 2 students (e.g., two lines of input).
+
+Send each line separately to the agents and display results.
+
+Weighted Average
+
+Assume subjects have different weights (e.g., Math = 3, English = 2, Science = 1).
+
+Modify AverageAgent to compute weighted average.
+
+Grade Justification
+
+Extend GradeAgent to explain why a grade was given (e.g., “Average 71.6 falls into B range”).
